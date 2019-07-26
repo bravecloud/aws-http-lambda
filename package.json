@@ -1,0 +1,31 @@
+{
+  "name": "@aws-lambda/http",
+  "version": "0.0.1",
+  "description": "A utility for simplifying response handling when using aws lambda functions with the http event proxy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "coverage": "nyc ./node_modules/mocha/bin/mocha",
+    "cover-report": "nyc -r html ./node_modules/mocha/bin/mocha",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "./node_modules/eslint/bin/eslint.js ./"
+  },
+  "keywords": [
+    "aws-lambda",
+    "lambda",
+    "http event",
+    "lambda response",
+    "lambda cookie",
+    "lambda headers"
+  ],
+  "author": "bravecloud",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^3.0.4",
+    "eslint": "6.0.1",
+    "lodash": ">=4.17.13",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
+  }
+}
