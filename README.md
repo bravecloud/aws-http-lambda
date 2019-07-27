@@ -1,3 +1,7 @@
+[![npm version](https://badge.fury.io/js/%40aws-lambda%2Fhttp.svg)](https://badge.fury.io/js/%40aws-lambda%2Fhttp)
+[![Build Status](https://travis-ci.org/bravecloud/aws-http-lambda.svg?branch=master)](https://travis-ci.org/bravecloud/aws-http-lambda)
+[![Coverage Status](https://coveralls.io/repos/github/bravecloud/aws-http-lambda/badge.svg?branch=master)](https://coveralls.io/github/bravecloud/aws-http-lambda?branch=master)
+
 # @aws-lambda/http
 
 http is a utility for simplifying response handling when using aws lambda functions with the http event proxy.
