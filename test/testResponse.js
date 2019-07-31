@@ -121,4 +121,9 @@ describe('Response', function () {
       assert(allCookies.indexOf(expectedCookie) !== -1, `missing cookie ${expectedCookie}`);
     }
   });
+  it('isBase64Encoded', function () {
+    let response = new Response();
+    let json = response.base64().json();
+    assert(json.isBase64Encoded);
+  });
 });
