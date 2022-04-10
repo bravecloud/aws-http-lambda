@@ -7,7 +7,7 @@
     "test": "./node_modules/mocha/bin/mocha",
     "coverage": "nyc ./node_modules/mocha/bin/mocha",
     "cover-report": "nyc -r html ./node_modules/mocha/bin/mocha",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lcov": "nyc report --reporter=lcov",
     "lint": "./node_modules/eslint/bin/eslint.js ./"
   },
   "keywords": [
