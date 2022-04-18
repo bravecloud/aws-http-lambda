@@ -1,6 +1,6 @@
 {
   "name": "@aws-lambda/http",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility for simplifying response handling when using aws lambda functions with the http event proxy.",
   "main": "index.js",
   "scripts": {
