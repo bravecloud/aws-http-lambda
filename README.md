@@ -1,5 +1,5 @@
 [![npm version](https://badge.fury.io/js/%40aws-lambda%2Fhttp.svg)](https://badge.fury.io/js/%40aws-lambda%2Fhttp)
-![build status](https://github.com/bravecloud/aws-http-lambda/actions/workflows/build.yml/badge.svg?branch=master)
+[![build status](https://github.com/bravecloud/aws-http-lambda/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/bravecloud/aws-http-lambda/actions/workflows/build.yml)
 [![Coverage Status](https://coveralls.io/repos/github/bravecloud/aws-http-lambda/badge.svg?branch=master)](https://coveralls.io/github/bravecloud/aws-http-lambda?branch=master)
 
 # @aws-lambda/http
